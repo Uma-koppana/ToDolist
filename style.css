@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background:aqua;
+  padding: 40px;
+}
+
+.container {
+  background:pink;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #ccc; /* border petta, shadow teesesa */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px; /* font size taggincha */
+}
+
+.add-task {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #aaa; /* border konchem thick */
+  border-radius: 4px;
+}
+
+#addBtn {
+  padding: 10px 15px;
+  background: #4a90e2; /* single color, gradient teesa */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  padding: 12px;
+  background: #f5f5f5; /* simple grey */
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 3px solid #4a90e2; /* left border matrame */
+}
+
+li.completed {
+  border-left-color: green;
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+
+.complete-btn {
+  background: #5cb85c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.delete-btn {
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
